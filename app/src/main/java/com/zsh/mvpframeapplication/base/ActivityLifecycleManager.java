@@ -74,7 +74,7 @@ public class ActivityLifecycleManager implements Application.ActivityLifecycleCa
 
     @Override
     public void onActivityDestroyed(Activity activity) {
-//        ProActivityManager.getInstance().destroyActivity(activity, false);
+        //ProActivityManager.getInstance().destroyActivity(activity, false);
     }
 
     public void setOnTaskSwitchListener(OnTaskSwitchListener listener) {
