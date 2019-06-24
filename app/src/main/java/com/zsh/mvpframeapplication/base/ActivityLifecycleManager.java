@@ -83,7 +83,6 @@ public class ActivityLifecycleManager implements Application.ActivityLifecycleCa
 
     public interface OnTaskSwitchListener {
         void onTaskSwitchToForeground();
-
         void onTaskSwitchToBackground();
     }
 }
